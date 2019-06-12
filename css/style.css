@@ -14,8 +14,8 @@ body,html{
 #contents{
     width: 100%;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 *{
@@ -89,14 +89,19 @@ header img{
 
 .overlay{
     display: none;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     color: white;
+    z-index: 10;
 }
 
 .active-champion{
-    width: 370px;
-    margin: 0 auto;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .active-body{
