@@ -1,9 +1,8 @@
 const API = (function() {
 
-    function fetchJSON(url,get) {
-        return fetch(url)
-            .then(result => result.json())
-            .then(data => data[get]);
+    function fetchJSON(url) {
+        return fetch("https://cors-anywhere.herokuapp.com/"+url)
+            .then(result => result.json());
     }
 
     return {

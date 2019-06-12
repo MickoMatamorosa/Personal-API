@@ -6,10 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css"/>
-    <title>Poke-Catcher</title>
+    <title>League of Legends: Champions and Items API</title>
 </head>
 <body>
-    
+    <div class="overlay">
+        <div class="active-champion">
+            <span class="close hover right">X</span>
+            <div class="active-head">
+                <img class="active-champion-img">
+                <span class="active-name"></span>
+            </div>
+            <div class="active-body">
+                <div class="active-stat">
+                    <span id="health-img" class="active-img"></span>
+                    <span id="health-name" class="active-name">Health:<br/>
+                    <span id="health-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="health-regen-img" class="active-img"></span>
+                    <span id="health-regen-name" class="active-name">Health Regen:<br/>
+                    <span id="health-regen-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="ad-img" class="active-img"></span>
+                    <span id="ad-name" class="active-name">Attack Damage:<br/>
+                    <span id="ad-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="ap-img" class="active-img"></span>
+                    <span id="ap-name" class="active-name">Ability Power:<br/>
+                    <span id="ap-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="mana-img" class="active-img"></span>
+                    <span id="mana-name" class="active-name">Mana:<br/>
+                    <span id="mana-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="mana-regen-img" class="active-img"></span>
+                    <span id="mana-regen-name" class="active-name">Mana Regen:<br/>
+                    <span id="mana-regen-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="as-img" class="active-img"></span>
+                    <span id="as-name" class="active-name">Attack Speed:<br/>
+                    <span id="as-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="ms-img" class="active-img"></span>
+                    <span id="ms-name" class="active-name">Movement Speed:<br/>
+                    <span id="ms-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="armor-img" class="active-img"></span>
+                    <span id="armor-name" class="active-name">Armor:<br/>
+                    <span id="armor-value" class="active-value"></span></span>
+                </div>
+                <div class="active-stat">
+                    <span id="magic-resist-img" class="active-img"></span>
+                    <span id="magic-resist-name" class="active-name">Magic Resist:<br/>
+                    <span id="magic-resist-value" class="active-value"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <img src="images/logo.png" alt="">
+    </header>
+    <div class="container">
+        <div class="get">
+            <span class="hover left">Champions</span>
+            <span class="hover right">Items</span>
+        </div>
+        <div id="contents"></div>
+    </div>
     <script src="js/api.js"></script>
     <script src="js/script.js"></script>
 </body>
