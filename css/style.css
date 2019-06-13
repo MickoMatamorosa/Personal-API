@@ -1,0 +1,203 @@
+body,html{
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: #091120;
+    width: 1200px;
+    margin: 20px auto 0;
+    color: white;
+}
+
+#contents{
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+}
+
+#contents.champs-grid{
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+#contents.items-grid{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.item{
+    color: #bedcf5;
+    position: relative;
+    text-align: center;
+}
+
+.item img{  
+}
+
+.item h2{
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    background: rgba(13, 4, 51, 0.3);
+    margin: 0;
+}
+
+*{ box-sizing: border-box; }
+
+.champion{
+    height: 365px;
+    color: #bedcf5;
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+}
+
+.champion:hover{
+    background-size: 105% !important;
+}
+
+.champion h2{
+    padding: 15px;
+    font-size: 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: rgba(13, 4, 51, 0.3);
+    margin: 0;
+}
+
+.get{
+    background: black;
+    padding: 10px;
+}
+
+.left,.right{
+    margin: 5px;
+    padding: 20px 10px 0;
+    font-size: 27px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+header{
+    background: url("../images/header.jpg") black no-repeat;
+    background-position-y: -10px;
+    background-position-x: center;
+    background-size: 100%;
+    width: 100vw;
+    height: 400px;
+    position: relative;
+}
+
+header img{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    z-index: 10;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: right;
+}
+
+.active-champion{
+    padding: 10px 30px 0;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-image: linear-gradient(to right, rgba(0,0,0,.9), rgba(65, 59, 59, 0));
+}
+
+.active-body{
+    width: 100%;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    font-size: 18px;
+}
+
+.active-head{
+    width: 100%;
+    padding: 15px;
+    display: block;
+}
+
+.active-champion-img,.active-champion-img-wrapper{
+    background-size: contain;
+    width: 100%;
+    height:250px;
+}
+
+.active-champion-name{
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.close{
+    margin-right: 20px;
+    padding: 4px 5px !important;
+    width: 33px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+
+.close:hover{
+    color: red;
+}
+
+.active-img{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url("../images/stat-icons-sprite.png");
+}
+
+.active-value{
+    margin-left: 24px;
+}
+
+#health-img{ background-position-y: -150px;}
+#health-regen-img{ background-position-y: -175px;}
+#ad-img{ background-position-y: 0px;}
+#ap-img{ background-position-y: -100px;}
+#mana-img{ background-position-y: -200px;}
+#mana-regen-img{ background-position-y: -225px;}
+#as-img{ background-position-y: -50px;}
+#ms-img{ background-position-y: -75px;}
+#armor-img{ background-position-y: -25px;}
+#magic-resist-img{ background-position-y: -125px;}
+
+/*{border: 1px solid red;}
