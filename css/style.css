@@ -15,12 +15,37 @@ body,html{
     width: 100%;
     display: grid;
     grid-gap: 15px;
+}
+
+#contents.champs-grid{
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-*{
-    box-sizing: border-box;
+#contents.items-grid{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
+.item{
+    color: #bedcf5;
+    position: relative;
+    text-align: center;
+}
+
+.item img{  
+}
+
+.item h2{
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    background: rgba(13, 4, 51, 0.3);
+    margin: 0;
+}
+
+*{ box-sizing: border-box; }
 
 .champion{
     height: 365px;
@@ -94,30 +119,63 @@ header img{
     height: 100vh;
     color: white;
     z-index: 10;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: right;
 }
 
 .active-champion{
-    width: 400px;
+    padding: 10px 30px 0;
+    width: 350px;
+    height: 100%;
     position: absolute;
-    top: 50%;
+    left: 0;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
+    background-image: linear-gradient(to right, rgba(0,0,0,.9), rgba(65, 59, 59, 0));
 }
 
 .active-body{
     width: 100%;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 12px;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     font-size: 18px;
 }
 
 .active-head{
     width: 100%;
+    padding: 15px;
+    display: block;
 }
 
-.active-champion-img{
-    
+.active-champion-img,.active-champion-img-wrapper{
+    background-size: contain;
+    width: 100%;
+    height:250px;
+}
+
+.active-champion-name{
+    font-size: 35px;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.close{
+    margin-right: 20px;
+    padding: 4px 5px !important;
+    width: 33px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+
+.close:hover{
+    color: red;
 }
 
 .active-img{
@@ -125,6 +183,10 @@ header img{
     width: 19px;
     height: 19px;
     background: url("../images/stat-icons-sprite.png");
+}
+
+.active-value{
+    margin-left: 24px;
 }
 
 #health-img{ background-position-y: -150px;}
@@ -137,3 +199,5 @@ header img{
 #ms-img{ background-position-y: -75px;}
 #armor-img{ background-position-y: -25px;}
 #magic-resist-img{ background-position-y: -125px;}
+
+/*{border: 1px solid red;}

@@ -10,10 +10,12 @@
 </head>
 <body>
     <div class="overlay">
+        <span class="close hover right">&#10006;</span>
         <div class="active-champion">
-            <span class="close hover right">X</span>
             <div class="active-head">
-                <img class="active-champion-img">
+                <div class="active-champion-img-wrapper">
+                    <img class="active-champion-img">
+                </div>
                 <span class="active-champion-name"></span>
             </div>
             <div class="active-body">
@@ -70,13 +72,16 @@
             </div>
         </div>
     </div>
+    <div id="itemDetails">
+        
+    </div>
     <header>
         <img src="images/logo.png" alt="">
     </header>
     <div class="container">
         <div class="get">
-            <span class="hover left">Champions</span>
-            <span class="hover right">Items</span>
+            <span id="Champions" class="hover left">Champions</span>
+            <span id="Items" class="hover right">Items</span>
         </div>
         <div id="contents"></div>
     </div>
