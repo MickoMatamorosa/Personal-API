@@ -21,6 +21,16 @@ const msVal = document.getElementById('ms-value');
 const arVal = document.getElementById('armor-value');
 const mrVal = document.getElementById('magic-resist-value');
 
+const searchInput = document.getElementById('search');
+
+searchInput.addEventListener('change', searchChampion);
+searchInput.addEventListener('keyup', searchChampion);
+
+function searchChampion(){
+    let searchURL = `&search[name]=${searchInput.value}`;
+    getAllChampions(allChampsURL,searchURL);
+}
+
 const closeBtn = document.querySelector('.close');
 closeBtn.addEventListener('click', () => {
     aChampImg.removeAttribute('src');
@@ -45,11 +55,11 @@ function getAllItems(URL){
     });
 }
 
-function getAllChampions(URL){
+function getAllChampions(URL,sURL){
     cont.innerHTML = "";
     cont.classList.remove('items-grid');
     cont.classList.add('champs-grid');
-    API.fetchJSON(URL).then(data => {
+    API.fetchJSON(URL,sURL).then(data => {
         cont.innerHTML = data.map(reg => 
             `<div onclick="viewChampion('${reg.id}','${reg.name}')" class="champion hover"
             style="background-image:url('${reg.big_image_url}');"

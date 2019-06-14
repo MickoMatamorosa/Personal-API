@@ -6,70 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <title>League of Legends: Champions and Items API</title>
 </head>
 <body>
     <div class="overlay">
         <span class="close hover right">&#10006;</span>
+        <span class="active-champion-name"></span>
+        <div class="active-champion-wrapper">
         <div class="active-champion">
             <div class="active-head">
                 <div class="active-champion-img-wrapper">
                     <img class="active-champion-img">
                 </div>
-                <span class="active-champion-name"></span>
             </div>
             <div class="active-body">
                 <div class="active-stat">
                     <span id="health-img" class="active-img"></span>
-                    <span id="health-name" class="active-name">Health:<br/>
-                    <span id="health-value" class="active-value"></span></span>
+                    <span id="health-name" class="active-name">Health:</span><br/>
+                    <span id="health-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="health-regen-img" class="active-img"></span>
-                    <span id="health-regen-name" class="active-name">Health Regen:<br/>
-                    <span id="health-regen-value" class="active-value"></span></span>
+                    <span id="health-regen-name" class="active-name">Health Regen:</span><br/>
+                    <span id="health-regen-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="ad-img" class="active-img"></span>
-                    <span id="ad-name" class="active-name">Attack Damage:<br/>
-                    <span id="ad-value" class="active-value"></span></span>
+                    <span id="ad-name" class="active-name">Attack Damage:</span><br/>
+                    <span id="ad-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="ap-img" class="active-img"></span>
-                    <span id="ap-name" class="active-name">Ability Power:<br/>
-                    <span id="ap-value" class="active-value"></span></span>
+                    <span id="ap-name" class="active-name">Ability Power:</span><br/>
+                    <span id="ap-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="mana-img" class="active-img"></span>
-                    <span id="mana-name" class="active-name">Mana:<br/>
-                    <span id="mana-value" class="active-value"></span></span>
+                    <span id="mana-name" class="active-name">Mana:</span><br/>
+                    <span id="mana-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="mana-regen-img" class="active-img"></span>
-                    <span id="mana-regen-name" class="active-name">Mana Regen:<br/>
-                    <span id="mana-regen-value" class="active-value"></span></span>
+                    <span id="mana-regen-name" class="active-name">Mana Regen:</span><br/>
+                    <span id="mana-regen-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="as-img" class="active-img"></span>
-                    <span id="as-name" class="active-name">Attack Speed:<br/>
-                    <span id="as-value" class="active-value"></span></span>
+                    <span id="as-name" class="active-name">Attack Speed:</span><br/>
+                    <span id="as-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="ms-img" class="active-img"></span>
-                    <span id="ms-name" class="active-name">Movement Speed:<br/>
-                    <span id="ms-value" class="active-value"></span></span>
+                    <span id="ms-name" class="active-name">Movement Speed:</span><br/>
+                    <span id="ms-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="armor-img" class="active-img"></span>
-                    <span id="armor-name" class="active-name">Armor:<br/>
-                    <span id="armor-value" class="active-value"></span></span>
+                    <span id="armor-name" class="active-name">Armor:</span><br/>
+                    <span id="armor-value" class="active-value"></span>
                 </div>
                 <div class="active-stat">
                     <span id="magic-resist-img" class="active-img"></span>
-                    <span id="magic-resist-name" class="active-name">Magic Resist:<br/>
-                    <span id="magic-resist-value" class="active-value"></span></span>
+                    <span id="magic-resist-name" class="active-name">Magic Resist:</span><br/>
+                    <span id="magic-resist-value" class="active-value"></span>
                 </div>
             </div>
+        </div>
         </div>
     </div>
     <div id="itemDetails">
@@ -81,6 +84,7 @@
     <div class="container">
         <div class="get">
             <span id="Champions" class="hover left">Champions</span>
+            <input type="search" id="search">
             <span id="Items" class="hover right">Items</span>
         </div>
         <div id="contents"></div>
