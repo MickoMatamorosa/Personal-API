@@ -87,23 +87,30 @@ body,html{
 
 .left{
     float: left;
+    margin-left: 160px;
 }
 
 label.search{
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    bottom: -50px;
-    padding: 7px;
+    bottom: -50px; 
+    padding: 7px;*/
     border-radius: 5px;
-    transform: translate(-50%,0);
+    /* transform: translate(-50%,0); */
     border: none;
     font-size: 22px;
+    margin: 5px 0 !important;
 }
 
 input.search{
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
     border: none;
+}
+
+.get #Champions{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 .right{
