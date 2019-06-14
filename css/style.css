@@ -42,7 +42,7 @@ body,html{
     display: inline-block;
     text-align: center;
     bottom: 0;
-    background: rgba(13, 4, 51, 0.4);
+    /* background: rgba(13, 4, 51, 0.4); */
     margin: 0;
 }
 
@@ -76,6 +76,7 @@ body,html{
 .get{
     background: black;
     padding: 10px;
+    position: relative;
 }
 
 .left,.right{
@@ -86,6 +87,23 @@ body,html{
 
 .left{
     float: left;
+}
+
+label.search{
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    padding: 7px;
+    border-radius: 5px;
+    transform: translate(-50%,0);
+    border: none;
+    font-size: 22px;
+}
+
+input.search{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
 }
 
 .right{
@@ -210,5 +228,21 @@ header img{
 #ms-img{ background-position-y: -75px;}
 #armor-img{ background-position-y: -25px;}
 #magic-resist-img{ background-position-y: -125px;}
+
+.item-details{
+    display: none;
+    z-index: 11;
+    list-style-type: none;
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    background: #091120;
+    border: 2px groove navy;
+}
+
+.item img:hover ~ .item-details,
+.item h2:hover ~ .item-details{
+    display: block;
+}
 
 /*{border: 1px solid red;}

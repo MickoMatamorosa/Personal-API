@@ -21,14 +21,16 @@ const msVal = document.getElementById('ms-value');
 const arVal = document.getElementById('armor-value');
 const mrVal = document.getElementById('magic-resist-value');
 
-const searchInput = document.getElementById('search');
+const searchInput = document.querySelector('input.search');
+const searchLbl = document.querySelector('label.search');
 
 searchInput.addEventListener('change', searchChampion);
 searchInput.addEventListener('keyup', searchChampion);
 
 function searchChampion(){
-    let searchURL = `&search[name]=${searchInput.value}`;
-    getAllChampions(allChampsURL,searchURL);
+    let searchURL = `&search[name]=${this.value}`;
+    if(searchURL) getAllChampions(allChampsURL,searchURL);
+    else getAllChampions(allChampsURL);
 }
 
 const closeBtn = document.querySelector('.close');
@@ -44,6 +46,7 @@ allItems.addEventListener('click', () => getAllItems(allItemsURL));
 
 function getAllItems(URL){
     cont.innerHTML = "";
+    searchLbl.hidden = true;
     cont.classList.remove('champs-grid');
     cont.classList.add('items-grid');
     API.fetchJSON(URL).then(data => {
@@ -51,12 +54,30 @@ function getAllItems(URL){
             `<div onclick="viewItem('${item.id}')" class="item hover">
                 <img src="${item.image_url}">
                 <h2>${item.name}</h2>
+                <ul class="item-details">${itemDetails(item)}</ul>
             </div>`).join('');
     });
 }
 
+function itemDetails(d){
+    return `
+        ${d.gold_base?`<li>${d.gold_base}(total: ${d.gold_total})</li><li>sell for ${d.gold_sell}</li>`:""}
+        ${d.flat_armor_mod?`<li>+${d.flat_armor_mod} armor</li>`:""}
+        ${d.flat_crit_chance_mod?`<li>+${d.flat_crit_chance_mod} critical chance</li>`:""}
+        ${d.flat_hp_pool_mod?`<li>+${d.flat_hp_pool_mod} health</li>`:""}
+        ${d.flat_hp_regen_mod?`<li>+${d.flat_hp_regen_mod} health regen</li>`:""}
+        ${d.flat_magic_damage_mod?`<li>+${d.flat_magic_damage_mod} magic damage</li>`:""}
+        ${d.flat_movement_speed_mod?`<li>+${d.flat_movement_speed_mod} movement speed</li>`:""}
+        ${d.flat_mp_pool_mod?`<li>+${d.flat_mp_pool_mod} mana</li>`:""}
+        ${d.flat_mp_regen_mod?`<li>+${d.flat_mp_regen_mod} mana regen</li>`:""}
+        ${d.flat_physical_damage_mod?`<li>+${d.flat_physical_damage_mod} attack damage</li>`:""}
+        ${d.flat_spell_block_mod?`<li>+${d.flat_spell_block_mod} magic resist</li>`:""}
+    `;
+}
+
 function getAllChampions(URL,sURL){
     cont.innerHTML = "";
+    searchLbl.hidden = false;
     cont.classList.remove('items-grid');
     cont.classList.add('champs-grid');
     API.fetchJSON(URL,sURL).then(data => {
