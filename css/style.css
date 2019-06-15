@@ -26,13 +26,22 @@ body,html{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+#contents.teams-grid{
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}
+
+#contents.tournament-grid{
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}
+
 .item{
     color: #bedcf5;
     position: relative;
     text-align: center;
 }
 
-.item img{  
+.item img{
+
 }
 
 .item h2{
@@ -42,13 +51,13 @@ body,html{
     display: inline-block;
     text-align: center;
     bottom: 0;
-    background: rgba(13, 4, 51, 0.4);
+    /* background: rgba(13, 4, 51, 0.4); */
     margin: 0;
 }
 
 *{ box-sizing: border-box; }
 
-.champion{
+.champion,.tour,.team{
     max-width: 250px;
     height: 365px;
     color: #bedcf5;
@@ -57,11 +66,19 @@ body,html{
     background-position: top center;
 }
 
+#contents .tour,#contents .team{
+    max-width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .champion:hover{
     background-size: 105% !important;
 }
 
-.champion h2{
+.champion h2,.tour h2,.team h2{
     padding: 15px;
     font-size: 30px;
     width: 100%;
@@ -76,6 +93,7 @@ body,html{
 .get{
     background: black;
     padding: 10px;
+    position: relative;
 }
 
 .left,.right{
@@ -86,10 +104,35 @@ body,html{
 
 .left{
     float: left;
+    margin-left: 160px;
+}
+
+label.search{
+    /* position: absolute;
+    left: 50%;
+    bottom: -50px; 
+    padding: 7px;*/
+    border-radius: 5px;
+    /* transform: translate(-50%,0); */
+    border: none;
+    font-size: 22px;
+    margin: 5px 0 !important;
+}
+
+input.search{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.get #Champions{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 .right{
     float: right;
+    margin-left: 168px;
 }
 
 .hover{
@@ -210,5 +253,21 @@ header img{
 #ms-img{ background-position-y: -75px;}
 #armor-img{ background-position-y: -25px;}
 #magic-resist-img{ background-position-y: -125px;}
+
+.item-details{
+    display: none;
+    z-index: 11;
+    list-style-type: none;
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    background: #091120;
+    border: 2px groove navy;
+}
+
+.item img:hover ~ .item-details,
+.item h2:hover ~ .item-details{
+    display: block;
+}
 
 /*{border: 1px solid red;}

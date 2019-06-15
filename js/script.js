@@ -1,10 +1,14 @@
 const allChampsURL = "https://api.pandascore.co/lol/champions";
 const allItemsURL = "https://api.pandascore.co/lol/items";
+const allTeamsURL = "https://api.pandascore.co/lol/teams";
+const allTourURL = "https://api.pandascore.co/lol/tournaments";
 const allSkinURL = "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/";
 
 const cont = document.getElementById('contents');
 const allChamps = document.getElementById('Champions');
 const allItems = document.getElementById('Items');
+const allTeams = document.getElementById('Teams');
+const allTour = document.getElementById('Tournament');
 
 const champ = cont.childNodes;
 const details = document.querySelector('.overlay');
@@ -21,14 +25,16 @@ const msVal = document.getElementById('ms-value');
 const arVal = document.getElementById('armor-value');
 const mrVal = document.getElementById('magic-resist-value');
 
-const searchInput = document.getElementById('search');
+const searchInput = document.querySelector('input.search');
+const searchLbl = document.querySelector('label.search');
 
 searchInput.addEventListener('change', searchChampion);
 searchInput.addEventListener('keyup', searchChampion);
 
 function searchChampion(){
-    let searchURL = `&search[name]=${searchInput.value}`;
-    getAllChampions(allChampsURL,searchURL);
+    let searchURL = `&search[name]=${this.value}`;
+    if(searchURL) getAllChampions(allChampsURL,searchURL);
+    else getAllChampions(allChampsURL);
 }
 
 const closeBtn = document.querySelector('.close');
@@ -41,22 +47,60 @@ getAllChampions(allChampsURL);
 
 allChamps.addEventListener('click', () => getAllChampions(allChampsURL));
 allItems.addEventListener('click', () => getAllItems(allItemsURL));
+allTeams.addEventListener('click', () => getAllTeams(allTeamsURL));
+allTour.addEventListener('click', () => getAllTournament(allTourURL));
 
 function getAllItems(URL){
     cont.innerHTML = "";
+    searchLbl.hidden = true;
+    cont.classList.remove('tournament-grid');
+    cont.classList.remove('teams-grid');
     cont.classList.remove('champs-grid');
     cont.classList.add('items-grid');
     API.fetchJSON(URL).then(data => {
         cont.innerHTML = data.map(item => 
-            `<div onclick="viewItem('${item.id}')" class="item hover">
+            `<div class="item hover">
                 <img src="${item.image_url}">
                 <h2>${item.name}</h2>
             </div>`).join('');
     });
 }
 
+function getAllTeams(URL){
+    cont.innerHTML = "";
+    searchLbl.hidden = true;
+    cont.classList.remove('tournament-grid');
+    cont.classList.remove('champs-grid');
+    cont.classList.remove('items-grid');
+    cont.classList.add('teams-grid');
+    API.fetchJSON(URL).then(data => {
+        cont.innerHTML = data.map(reg => 
+            `<div onclick="viewTeam('${reg}','${reg.image_url}')" class="team hover"
+            style="background-image:url('${reg.image_url}');"
+            ><h2>${reg.name}</h2></div>`).join('');
+    });
+}
+
+function getAllTournament(URL){
+    cont.innerHTML = "";
+    searchLbl.hidden = true;
+    cont.classList.remove('champs-grid');
+    cont.classList.remove('items-grid');
+    cont.classList.remove('teams-grid');
+    cont.classList.add('tournament-grid');
+    API.fetchJSON(URL).then(data => {
+        cont.innerHTML = data.map(reg => 
+            `<div onclick="viewTournament('${reg}')" class="tour hover"
+            style="background-image:url('${reg.league.image_url}');"
+            ><h2>${reg.name}</h2></div>`).join('');
+    });
+}
+
 function getAllChampions(URL,sURL){
     cont.innerHTML = "";
+    searchLbl.hidden = false;
+    cont.classList.remove('tournament-grid');
+    cont.classList.remove('teams-grid');
     cont.classList.remove('items-grid');
     cont.classList.add('champs-grid');
     API.fetchJSON(URL,sURL).then(data => {
@@ -65,6 +109,22 @@ function getAllChampions(URL,sURL){
             style="background-image:url('${reg.big_image_url}');"
             ><h2>${reg.name}</h2></div>`).join('');
     });
+}
+
+function itemDetails(d){
+    return `
+        ${d.gold_base?`<li>${d.gold_base}(total: ${d.gold_total})</li><li>sell for ${d.gold_sell}</li>`:""}
+        ${d.flat_armor_mod?`<li>+${d.flat_armor_mod} armor</li>`:""}
+        ${d.flat_crit_chance_mod?`<li>+${d.flat_crit_chance_mod} critical chance</li>`:""}
+        ${d.flat_hp_pool_mod?`<li>+${d.flat_hp_pool_mod} health</li>`:""}
+        ${d.flat_hp_regen_mod?`<li>+${d.flat_hp_regen_mod} health regen</li>`:""}
+        ${d.flat_magic_damage_mod?`<li>+${d.flat_magic_damage_mod} magic damage</li>`:""}
+        ${d.flat_movement_speed_mod?`<li>+${d.flat_movement_speed_mod} movement speed</li>`:""}
+        ${d.flat_mp_pool_mod?`<li>+${d.flat_mp_pool_mod} mana</li>`:""}
+        ${d.flat_mp_regen_mod?`<li>+${d.flat_mp_regen_mod} mana regen</li>`:""}
+        ${d.flat_physical_damage_mod?`<li>+${d.flat_physical_damage_mod} attack damage</li>`:""}
+        ${d.flat_spell_block_mod?`<li>+${d.flat_spell_block_mod} magic resist</li>`:""}
+    `;
 }
 
 function viewChampion(champID,champName){
@@ -90,6 +150,12 @@ function viewChampion(champID,champName){
     });
 }
 
-function viewItem(itemID){
-    console.log(itemID);
+function viewTeam(teamData){
+    console.log(teamData);
+    // display team and its players
+}
+
+function viewTournament(matchData){
+    console.log(matchData);
+    // display all matches from selected tournament
 }

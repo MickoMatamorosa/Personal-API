@@ -1,3 +1,4 @@
+// Champion
 {
     "armor": 25.0,
     "armorperlevel": 3.0,
@@ -27,6 +28,7 @@
       "9.11.1"
     ]
   }
+// Item
   {
     "flat_armor_mod": 0,
     "flat_crit_chance_mod": 0,
@@ -54,3 +56,2260 @@
       "9.10.1"
     ]
   },
+// leagues
+{
+  "id": 4228,
+  "image_url": "https://cdn.pandascore.co/images/league/image/4228/image.png",
+  "live_supported": false,
+  "modified_at": "2019-05-27T08:57:11Z",
+  "name": "LCS Academy",
+  "series": [
+    {
+      "begin_at": "2019-01-17T00:00:00Z",
+      "description": "2019 NA Academy Spring Split",
+      "end_at": "2019-04-06T01:39:00Z",
+      "full_name": "Spring 2019",
+      "id": 1760,
+      "league_id": 4228,
+      "modified_at": "2019-05-27T08:57:43Z",
+      "name": "",
+      "prizepool": null,
+      "season": "Spring",
+      "slug": "league-of-legends-na-academy-spring-2019",
+      "winner_id": 1594,
+      "winner_type": "Team",
+      "year": 2019
+    },
+    {
+      "begin_at": "2019-05-29T22:00:00Z",
+      "description": null,
+      "end_at": "2019-07-26T22:00:00Z",
+      "full_name": "Summer 2019",
+      "id": 1803,
+      "league_id": 4228,
+      "modified_at": "2019-05-27T08:57:31Z",
+      "name": null,
+      "prizepool": null,
+      "season": "Summer",
+      "slug": "league-of-legends-na-academy-summer-2019",
+      "winner_id": null,
+      "winner_type": null,
+      "year": 2019
+    }
+  ],
+  "slug": "league-of-legends-lcs-academy",
+  "url": "https://nexus.leagueoflegends.com/en-us/esports/",
+  "videogame": {
+    "current_version": "9.11.1",
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  }
+},
+// Matches
+{
+  "begin_at": "2019-06-30T11:00:00Z",
+  "draw": false,
+  "end_at": null,
+  "forfeit": false,
+  "games": [
+    {
+      "begin_at": null,
+      "end_at": null,
+      "finished": false,
+      "forfeit": false,
+      "id": 207677,
+      "length": null,
+      "match_id": 546104,
+      "position": 1,
+      "winner": {
+        "id": null,
+        "type": null
+      },
+      "winner_type": null
+    },
+    {
+      "begin_at": null,
+      "end_at": null,
+      "finished": false,
+      "forfeit": false,
+      "id": 207678,
+      "length": null,
+      "match_id": 546104,
+      "position": 2,
+      "winner": {
+        "id": null,
+        "type": null
+      },
+      "winner_type": null
+    },
+    {
+      "begin_at": null,
+      "end_at": null,
+      "finished": false,
+      "forfeit": false,
+      "id": 207679,
+      "length": null,
+      "match_id": 546104,
+      "position": 3,
+      "winner": {
+        "id": null,
+        "type": null
+      },
+      "winner_type": null
+    }
+  ],
+  "id": 546104,
+  "league": {
+    "id": 295,
+    "image_url": "https://cdn.pandascore.co/images/league/image/295/b030bfca-cac7-11e7-92d4-0e6c723feec8.png",
+    "live_supported": true,
+    "modified_at": "2019-03-05T19:00:14Z",
+    "name": "LMS",
+    "slug": "league-of-legends-lms-taiwan",
+    "url": "http://www.lolesports.com/en_US/lms/"
+  },
+  "league_id": 295,
+  "live": {
+    "opens_at": "2019-06-30T10:45:00Z",
+    "supported": true,
+    "url": "wss://live.pandascore.co/matches/546104"
+  },
+  "match_type": "best_of",
+  "modified_at": "2019-06-07T14:34:13Z",
+  "name": "AHQ vs HKA",
+  "number_of_games": 3,
+  "opponents": [
+    {
+      "opponent": {
+        "acronym": "AHQ",
+        "id": 415,
+        "image_url": "https://cdn.pandascore.co/images/team/image/415/ahq-e-sports-club-g4xr3guv.png",
+        "name": "ahq e-Sports Club",
+        "slug": "ahq-e-sports-club"
+      },
+      "type": "Team"
+    },
+    {
+      "opponent": {
+        "acronym": "HKA",
+        "id": 80,
+        "image_url": "https://cdn.pandascore.co/images/team/image/80/Hong_Kong_Attitudelogo_square.png",
+        "name": "Hong Kong Attitude",
+        "slug": "hongkong-esports"
+      },
+      "type": "Team"
+    }
+  ],
+  "results": [
+    {
+      "score": 0,
+      "team_id": 415
+    },
+    {
+      "score": 0,
+      "team_id": 80
+    }
+  ],
+  "serie": {
+    "begin_at": "2019-04-24T22:00:00Z",
+    "description": null,
+    "end_at": null,
+    "full_name": "Summer 2019",
+    "id": 1783,
+    "league_id": 295,
+    "modified_at": "2019-04-24T12:58:17Z",
+    "name": "",
+    "prizepool": null,
+    "season": "Summer",
+    "slug": "league-of-legends-lms-taiwan-summer-2019",
+    "winner_id": null,
+    "winner_type": null,
+    "year": 2019
+  },
+  "serie_id": 1783,
+  "slug": "ahq-e-sports-club-vs-hong-kong-attitude-2019-06-30",
+  "status": "not_started",
+  "tournament": {
+    "begin_at": "2019-06-13T08:00:00Z",
+    "end_at": null,
+    "id": 2398,
+    "league_id": 295,
+    "modified_at": "2019-06-07T14:34:35Z",
+    "name": "Regular season",
+    "serie_id": 1783,
+    "slug": "league-of-legends-lms-taiwan-summer-2019-regular-season",
+    "winner_id": null,
+    "winner_type": null
+  },
+  "tournament_id": 2398,
+  "videogame": {
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  },
+  "videogame_version": null,
+  "winner": null,
+  "winner_id": null
+},
+// Player
+{
+  "current_team": {
+    "acronym": "AXZ",
+    "id": 125064,
+    "image_url": "https://cdn.pandascore.co/images/team/image/125064/axiz-fpemv4d2.png",
+    "name": "AXIZ",
+    "slug": "axiz"
+  },
+  "current_videogame": {
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  },
+  "first_name": "Lee",
+  "hometown": null,
+  "id": 23014,
+  "image_url": null,
+  "last_name": "Tae-woon",
+  "name": "Lago",
+  "role": "sup",
+  "slug": "lago-lee-tae-woon"
+},
+// Runes
+{
+  "id": 310,
+  "name": "Greater Quintessence of Precision"
+},
+// Series
+{
+  "begin_at": "2019-06-03T16:00:00Z",
+  "description": null,
+  "end_at": "2019-08-06T22:00:00Z",
+  "full_name": "Summer 2019",
+  "id": 1811,
+  "league": {
+    "id": 4213,
+    "image_url": "https://cdn.pandascore.co/images/league/image/4213/_.png",
+    "live_supported": false,
+    "modified_at": "2019-03-05T10:30:26Z",
+    "name": "LVP SLO",
+    "slug": "league-of-legends-lvp-slo",
+    "url": null
+  },
+  "league_id": 4213,
+  "modified_at": "2019-06-03T17:45:41Z",
+  "name": null,
+  "prizepool": null,
+  "season": "Summer",
+  "slug": "league-of-legends-lvp-slo-summer-2019",
+  "tournaments": [
+    {
+      "begin_at": "2019-06-03T16:00:00Z",
+      "end_at": "2019-08-06T22:00:00Z",
+      "id": 2407,
+      "league_id": 4213,
+      "modified_at": "2019-06-03T20:14:24Z",
+      "name": "Regular season",
+      "serie_id": 1811,
+      "slug": "league-of-legends-lvp-slo-summer-2019-resuglar-season",
+      "winner_id": null,
+      "winner_type": null
+    }
+  ],
+  "videogame": {
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  },
+  "winner_id": null,
+  "winner_type": null,
+  "year": 2019
+},
+// Spell
+{
+  "id": 1,
+  "image_url": "http://example.com",
+  "name": "string"
+}
+// Series Team
+{
+  "acronym": "TQ",
+  "current_videogame": {
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  },
+  "id": 126075,
+  "image_url": "https://cdn.pandascore.co/images/team/image/126075/220px-Team_Quesologo_square.png",
+  "name": "Team Queso",
+  "players": [
+    {
+      "first_name": "Fernando",
+      "hometown": "Spain",
+      "id": 671,
+      "image_url": "https://cdn.pandascore.co/images/player/image/671/220px-TQ_Nandisko_2019_Split_2.png",
+      "last_name": " Peñalba Solís",
+      "name": "Nandisko",
+      "role": "top",
+      "slug": "nandisk0"
+    },
+    {
+      "first_name": null,
+      "hometown": null,
+      "id": 18137,
+      "image_url": "https://cdn.pandascore.co/images/player/image/18137/220px-TQ_Khantos_2019_Split_2.png",
+      "last_name": null,
+      "name": "Khantos",
+      "role": "adc",
+      "slug": "khantos"
+    },
+    {
+      "first_name": "George Daniel",
+      "hometown": "Romania",
+      "id": 20301,
+      "image_url": "https://cdn.pandascore.co/images/player/image/20301/220px-TQ_SpeeDy_2019_Split_2.png",
+      "last_name": "Savu",
+      "name": "SpeeDy",
+      "role": "jun",
+      "slug": "speedy"
+    },
+    {
+      "first_name": "Dimitris",
+      "hometown": "Greece",
+      "id": 21567,
+      "image_url": "https://cdn.pandascore.co/images/player/image/21567/220px-TQ_Von_2019_Split_2.png",
+      "last_name": "Bakiris",
+      "name": "Von",
+      "role": "mid",
+      "slug": "von-dimitris-bakiris"
+    },
+    {
+      "first_name": "Nikos",
+      "hometown": null,
+      "id": 22975,
+      "image_url": "https://cdn.pandascore.co/images/player/image/22975/220px-TQ_HungryPanda_2019_Split_2.png",
+      "last_name": "Nikolaidis",
+      "name": "HungryPanda",
+      "role": "sup",
+      "slug": "hungrypanda"
+    }
+  ],
+  "slug": "team-quesco"
+},
+// Tournaments
+{
+  "begin_at": "2019-06-03T16:00:00Z",
+  "end_at": "2019-08-06T22:00:00Z",
+  "id": 2407,
+  "league": {
+    "id": 4213,
+    "image_url": "https://cdn.pandascore.co/images/league/image/4213/_.png",
+    "live_supported": false,
+    "modified_at": "2019-03-05T10:30:26Z",
+    "name": "LVP SLO",
+    "slug": "league-of-legends-lvp-slo",
+    "url": null
+  },
+  "league_id": 4213,
+  "matches": [
+    {
+      "begin_at": "2019-06-03T16:00:00Z",
+      "draw": false,
+      "end_at": "2019-06-03T16:50:00Z",
+      "forfeit": false,
+      "id": 545997,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T19:57:32Z",
+      "name": "TQ vs x6",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-x6tence-2019-06-03",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125736
+    },
+    {
+      "begin_at": "2019-06-03T17:00:00Z",
+      "draw": false,
+      "end_at": "2019-06-03T17:50:00Z",
+      "forfeit": false,
+      "id": 545998,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T19:57:56Z",
+      "name": "S2V vs eMz",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-emonkeyz-2019-06-03",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125731
+    },
+    {
+      "begin_at": "2019-06-03T18:15:42Z",
+      "draw": false,
+      "end_at": "2019-06-03T18:48:16Z",
+      "forfeit": false,
+      "id": 545999,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:59:27Z",
+      "name": "VGIA vs G2H",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-g2-heretics-2019-06-03",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 3339
+    },
+    {
+      "begin_at": "2019-06-03T19:13:29Z",
+      "draw": false,
+      "end_at": "2019-06-03T19:48:46Z",
+      "forfeit": false,
+      "id": 546000,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T19:51:27Z",
+      "name": "PGM vs MRS",
+      "number_of_games": 1,
+      "slug": "penguins-vs-movistar-riders-2019-06-03",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 363
+    },
+    {
+      "begin_at": "2019-06-03T20:12:11Z",
+      "draw": false,
+      "end_at": "2019-06-03T20:53:32Z",
+      "forfeit": false,
+      "id": 546001,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-04T11:01:52Z",
+      "name": "MAD vs OGB",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-origen-bcn-2019-06-03",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2723
+    },
+    {
+      "begin_at": "2019-06-05T16:07:49Z",
+      "draw": false,
+      "end_at": "2019-06-05T16:47:42Z",
+      "forfeit": false,
+      "id": 546002,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-05T17:52:46Z",
+      "name": "G2H vs TQ",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-team-quesco-2019-06-04",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125732
+    },
+    {
+      "begin_at": "2019-06-05T17:12:14Z",
+      "draw": false,
+      "end_at": "2019-06-05T17:49:56Z",
+      "forfeit": false,
+      "id": 546003,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-05T18:48:43Z",
+      "name": "x6 vs MAD",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-mad-lions-2019-06-04",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2723
+    },
+    {
+      "begin_at": "2019-06-05T18:08:08Z",
+      "draw": false,
+      "end_at": "2019-06-05T18:43:29Z",
+      "forfeit": false,
+      "id": 546004,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-05T19:57:44Z",
+      "name": "eMz vs OGB",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-origen-bcn-2019-06-04",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125733
+    },
+    {
+      "begin_at": "2019-06-05T19:05:12Z",
+      "draw": false,
+      "end_at": "2019-06-05T19:50:51Z",
+      "forfeit": false,
+      "id": 546005,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-05T20:36:28Z",
+      "name": "PGM vs VGIA",
+      "number_of_games": 1,
+      "slug": "penguins-vs-vodafone-giants-spain-2019-06-05",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2717
+    },
+    {
+      "begin_at": "2019-06-05T20:11:33Z",
+      "draw": false,
+      "end_at": "2019-06-05T20:58:53Z",
+      "forfeit": false,
+      "id": 546006,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-05T21:03:04Z",
+      "name": "MRS vs S2V",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-s2v-esports-2019-06-04",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125734
+    },
+    {
+      "begin_at": "2019-06-10T16:04:52Z",
+      "draw": false,
+      "end_at": "2019-06-10T16:45:48Z",
+      "forfeit": false,
+      "id": 546007,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-10T20:50:46Z",
+      "name": "VGIA vs eMz",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-emonkeyz-2019-06-10",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 3339
+    },
+    {
+      "begin_at": "2019-06-10T17:08:11Z",
+      "draw": false,
+      "end_at": "2019-06-10T17:48:10Z",
+      "forfeit": false,
+      "id": 546008,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-10T20:51:09Z",
+      "name": "G2H vs S2V",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-s2v-esports-2019-06-10",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125732
+    },
+    {
+      "begin_at": "2019-06-10T18:11:00Z",
+      "draw": false,
+      "end_at": "2019-06-10T18:52:05Z",
+      "forfeit": false,
+      "id": 546009,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-10T20:51:39Z",
+      "name": "TQ vs PGM",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-penguins-2019-06-10",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2717
+    },
+    {
+      "begin_at": "2019-06-10T19:11:04Z",
+      "draw": false,
+      "end_at": "2019-06-10T19:50:25Z",
+      "forfeit": false,
+      "id": 546010,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T16:50:52Z",
+      "name": "MRS vs MAD",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-mad-lions-2019-06-10",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2723
+    },
+    {
+      "begin_at": "2019-06-10T20:11:58Z",
+      "draw": false,
+      "end_at": "2019-06-10T20:44:26Z",
+      "forfeit": false,
+      "id": 546011,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T16:51:25Z",
+      "name": "OGB vs x6",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-x6tence-2019-06-10",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125733
+    },
+    {
+      "begin_at": "2019-06-12T16:03:47Z",
+      "draw": false,
+      "end_at": "2019-06-12T16:45:12Z",
+      "forfeit": false,
+      "id": 546012,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T20:24:34Z",
+      "name": "MAD vs PGM",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-penguins-2019-06-11",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 2723
+    },
+    {
+      "begin_at": "2019-06-12T17:09:37Z",
+      "draw": false,
+      "end_at": "2019-06-12T17:48:16Z",
+      "forfeit": false,
+      "id": 546013,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T20:25:03Z",
+      "name": "eMz vs MRS",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-movistar-riders-2019-06-11",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 363
+    },
+    {
+      "begin_at": "2019-06-12T18:28:32Z",
+      "draw": false,
+      "end_at": "2019-06-12T19:11:08Z",
+      "forfeit": false,
+      "id": 546014,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T20:25:29Z",
+      "name": "OGB vs G2H",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-g2-heretics-2019-06-11",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125733
+    },
+    {
+      "begin_at": "2019-06-12T19:28:54Z",
+      "draw": false,
+      "end_at": "2019-06-12T20:21:14Z",
+      "forfeit": false,
+      "id": 546015,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-12T21:14:36Z",
+      "name": "S2V vs TQ",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-team-quesco-2019-06-11",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 125734
+    },
+    {
+      "begin_at": "2019-06-12T20:38:22Z",
+      "draw": false,
+      "end_at": "2019-06-12T21:13:45Z",
+      "forfeit": false,
+      "id": 546016,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-13T13:52:28Z",
+      "name": "x6 vs VGIA",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-vodafone-giants-spain-2019-06-11",
+      "status": "finished",
+      "tournament_id": 2407,
+      "winner_id": 3339
+    },
+    {
+      "begin_at": "2019-06-17T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546017,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T17:59:45Z",
+      "name": "TQ vs OGB",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-origen-bcn-2019-06-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-17T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546018,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:09:22Z",
+      "name": "PGM vs eMz",
+      "number_of_games": 1,
+      "slug": "penguins-vs-emonkeyz-2019-06-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-17T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546019,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:00:44Z",
+      "name": "G2H vs x6",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-x6tence-2019-06-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-17T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546020,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:01:12Z",
+      "name": "MAD vs S2V",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-s2v-esports-2019-06-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-17T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546021,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:09:26Z",
+      "name": "VGIA vs MRS",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-movistar-riders-2019-06-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-23T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546022,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:10:09Z",
+      "name": "eMz vs TQ",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-team-quesco-2019-06-18",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-23T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546023,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:09:50Z",
+      "name": "x6 vs PGM",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-penguins-2019-06-23",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-23T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546024,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:10:55Z",
+      "name": "S2V vs OGB",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-origen-bcn-2019-06-23",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-23T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546025,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:11:16Z",
+      "name": "MRS vs G2H",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-g2-heretics-2019-06-23",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-06-23T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546026,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T18:11:46Z",
+      "name": "MAD vs VGIA",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-vodafone-giants-spain-2019-06-23",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-01T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546027,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T19:59:13Z",
+      "name": "TQ vs MAD",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-mad-lions-2019-07-01",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-01T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546028,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T19:59:33Z",
+      "name": "PGM vs OGB",
+      "number_of_games": 1,
+      "slug": "penguins-vs-origen-bcn-2019-07-01",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-01T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546029,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:00:33Z",
+      "name": "VGIA vs S2V",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-s2v-esports-2019-07-01",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-01T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546030,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:00:54Z",
+      "name": "G2H vs eMz",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-emonkeyz-2019-07-01",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-01T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546031,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:01:17Z",
+      "name": "MRS vs x6",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-x6tence-2019-07-01",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-03T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546032,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:01:45Z",
+      "name": "VGIA vs TQ",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-team-quesco-2019-07-03",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-03T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546033,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:02:04Z",
+      "name": "S2V vs PGM",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-penguins-2019-07-03",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-03T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546034,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:09:39Z",
+      "name": "OGB vs MRS",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-movistar-riders-2019-07-03",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-03T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546035,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:02:54Z",
+      "name": "MAD vs G2H",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-g2-heretics-2019-07-03",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-03T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546036,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:03:38Z",
+      "name": "x6 vs eMz",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-emonkeyz-2019-07-03",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-08T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546037,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:04:10Z",
+      "name": "S2V vs x6",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-x6tence-2019-07-08",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-08T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546038,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:04:40Z",
+      "name": "eMz vs MAD",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-mad-lions-2019-07-08",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-08T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546039,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:05:15Z",
+      "name": "TQ vs MRS",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-movistar-riders-2019-07-08",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-08T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546040,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:06:00Z",
+      "name": "G2H vs PGM",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-penguins-2019-07-08",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-08T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546041,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:06:23Z",
+      "name": "OGB vs VGIA",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-vodafone-giants-spain-2019-07-08",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-10T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546042,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:06:52Z",
+      "name": "eMz vs S2V",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-s2v-esports-2019-07-10",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-10T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546043,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:07:35Z",
+      "name": "x6 vs TQ",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-team-quesco-2019-07-10",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-10T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546044,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:07:55Z",
+      "name": "G2H vs VGIA",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-vodafone-giants-spain-2019-07-10",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-10T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546045,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:08:15Z",
+      "name": "MRS vs PGM",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-penguins-2019-07-10",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-10T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546046,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T20:08:34Z",
+      "name": "OGB vs MAD",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-mad-lions-2019-07-10",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-15T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546047,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:02:49Z",
+      "name": "TQ vs G2H",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-g2-heretics-2019-07-15",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-15T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546048,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:03:18Z",
+      "name": "OGB vs eMz",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-emonkeyz-2019-07-15",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-15T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546049,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:03:47Z",
+      "name": "VGIA vs PGM",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-penguins-2019-07-15",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-15T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546050,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:04:09Z",
+      "name": "S2V vs MRS",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-movistar-riders-2019-07-15",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-15T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546051,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:04:30Z",
+      "name": "MAD vs x6",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-x6tence-2019-07-15",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-17T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546052,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:04:55Z",
+      "name": "S2V vs G2H",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-g2-heretics-2019-07-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-17T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546053,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:05:26Z",
+      "name": "eMz vs VGIA",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-vodafone-giants-spain-2019-07-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-17T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546054,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:05:51Z",
+      "name": "VGIA vs PGM",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-penguins-2019-07-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-17T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546055,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:06:13Z",
+      "name": "MAD vs MRS",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-movistar-riders-2019-07-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-17T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546056,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:06:38Z",
+      "name": "x6 vs OGB",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-origen-bcn-2019-07-17",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-22T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546057,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:07:03Z",
+      "name": "MRS vs eMz",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-emonkeyz-2019-07-22",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-22T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546058,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:10:13Z",
+      "name": "PGM vs MAD",
+      "number_of_games": 1,
+      "slug": "penguins-vs-mad-lions-2019-07-22",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-22T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546059,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:08:10Z",
+      "name": "G2H vs OGB",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-origen-bcn-2019-07-22",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-22T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546060,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:08:33Z",
+      "name": "TQ vs S2V",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-s2v-esports-2019-07-22",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-22T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546061,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:08:52Z",
+      "name": "VGIA vs x6",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-x6tence-2019-07-22",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-24T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546062,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:09:33Z",
+      "name": "eMz vs PGM",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-penguins-2019-07-24",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-24T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546063,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:11:06Z",
+      "name": "OGB vs TQ",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-team-quesco-2019-07-24",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-24T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546064,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:11:40Z",
+      "name": "x6 vs G2H",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-g2-heretics-2019-07-24",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-24T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546065,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:12:07Z",
+      "name": "S2V vs MAD",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-mad-lions-2019-07-24",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-24T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546066,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:12:38Z",
+      "name": "MRS vs VGIA",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-vodafone-giants-spain-2019-07-24",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-29T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546067,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:13:12Z",
+      "name": "TQ vs eMz",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-emonkeyz-2019-07-29",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-29T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546068,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:24:42Z",
+      "name": "PGM vs x6",
+      "number_of_games": 1,
+      "slug": "penguins-vs-x6tence-2019-07-29",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-29T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546069,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:15:51Z",
+      "name": "OGB vs S2V",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-s2v-esports-2019-07-29",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-29T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546070,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:16:18Z",
+      "name": "G2H vs MRS",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-movistar-riders-2019-07-29",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-29T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546071,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:16:41Z",
+      "name": "VGIA vs MAD",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-mad-lions-2019-07-29",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-31T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546072,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:17:13Z",
+      "name": "OGB vs PGM",
+      "number_of_games": 1,
+      "slug": "origen-bcn-vs-penguins-2019-07-31",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-31T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546073,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:17:46Z",
+      "name": "MAD vs TQ",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-team-quesco-2019-07-31",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-31T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546074,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:18:09Z",
+      "name": "S2V vs VGIA",
+      "number_of_games": 1,
+      "slug": "s2v-esports-vs-vodafone-giants-spain-2019-07-31",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-31T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546075,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:18:32Z",
+      "name": "eMz vs G2H",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-g2-heretics-2019-07-31",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-07-31T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546076,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:18:55Z",
+      "name": "x6 vs MRS",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-movistar-riders-2019-07-31",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-05T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546077,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:19:28Z",
+      "name": "PGM vs S2V",
+      "number_of_games": 1,
+      "slug": "penguins-vs-s2v-esports-2019-08-05",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-05T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546078,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:19:58Z",
+      "name": "TQ vs VGIA",
+      "number_of_games": 1,
+      "slug": "team-quesco-vs-vodafone-giants-spain-2019-08-05",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-05T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546079,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:20:23Z",
+      "name": "MRS vs OGB",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-origen-bcn-2019-08-05",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-05T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546080,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:20:46Z",
+      "name": "G2H vs MAD",
+      "number_of_games": 1,
+      "slug": "g2-heretics-vs-mad-lions-2019-08-05",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-05T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546081,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:21:16Z",
+      "name": "eMz vs x6",
+      "number_of_games": 1,
+      "slug": "emonkeyz-vs-x6tence-2019-08-05",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-07T16:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546082,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:21:44Z",
+      "name": "MAD vs eMz",
+      "number_of_games": 1,
+      "slug": "mad-lions-vs-emonkeyz-2019-08-07",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-07T17:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546083,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:22:13Z",
+      "name": "x6 vs S2V",
+      "number_of_games": 1,
+      "slug": "x6tence-vs-s2v-esports-2019-08-07",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-07T18:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546084,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:22:41Z",
+      "name": "MRS vs TQ",
+      "number_of_games": 1,
+      "slug": "movistar-riders-vs-team-quesco-2019-08-07",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-07T19:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546085,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:23:09Z",
+      "name": "PGM vs G2H",
+      "number_of_games": 1,
+      "slug": "penguins-vs-g2-heretics-2019-08-07",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    },
+    {
+      "begin_at": "2019-08-07T20:00:00Z",
+      "draw": false,
+      "end_at": null,
+      "forfeit": false,
+      "id": 546086,
+      "live": {
+        "opens_at": null,
+        "supported": false,
+        "url": null
+      },
+      "match_type": "best_of",
+      "modified_at": "2019-06-03T21:23:57Z",
+      "name": "VGIA vs OGB",
+      "number_of_games": 1,
+      "slug": "vodafone-giants-spain-vs-origen-bcn-2019-08-07",
+      "status": "not_started",
+      "tournament_id": 2407,
+      "winner_id": null
+    }
+  ],
+  "modified_at": "2019-06-03T20:14:24Z",
+  "name": "Regular season",
+  "serie": {
+    "begin_at": "2019-06-03T16:00:00Z",
+    "description": null,
+    "end_at": "2019-08-06T22:00:00Z",
+    "full_name": "Summer 2019",
+    "id": 1811,
+    "league_id": 4213,
+    "modified_at": "2019-06-03T17:45:41Z",
+    "name": null,
+    "prizepool": null,
+    "season": "Summer",
+    "slug": "league-of-legends-lvp-slo-summer-2019",
+    "winner_id": null,
+    "winner_type": null,
+    "year": 2019
+  },
+  "serie_id": 1811,
+  "slug": "league-of-legends-lvp-slo-summer-2019-resuglar-season",
+  "teams": [
+    {
+      "acronym": "MRS",
+      "id": 363,
+      "image_url": "https://cdn.pandascore.co/images/team/image/363/Movistar_Riderslogo_square.png",
+      "name": "Movistar Riders",
+      "slug": "movistar-riders"
+    },
+    {
+      "acronym": "PGM",
+      "id": 2717,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2717/300px-Penguinslogo_square.png",
+      "name": "Penguins",
+      "slug": "penguins"
+    },
+    {
+      "acronym": "MAD",
+      "id": 2723,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2723/300px-MAD_Lions_E.C.logo_square.png",
+      "name": "MAD Lions E.C.",
+      "slug": "mad-lions-e-c"
+    },
+    {
+      "acronym": "VGIA",
+      "id": 3339,
+      "image_url": "https://cdn.pandascore.co/images/team/image/3339/_.png",
+      "name": "Vodafone Giants.Spain",
+      "slug": "vodafone-giants-spain"
+    },
+    {
+      "acronym": "eMz",
+      "id": 125731,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125731/_.png",
+      "name": "eMonkeyz",
+      "slug": "emonkeyz"
+    },
+    {
+      "acronym": "G2H",
+      "id": 125732,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125732/_.png",
+      "name": "G2 Heretics",
+      "slug": "g2-heretics"
+    },
+    {
+      "acronym": "OGB",
+      "id": 125733,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125733/_.png",
+      "name": "Origen BCN",
+      "slug": "origen-bcn"
+    },
+    {
+      "acronym": "S2V",
+      "id": 125734,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125734/_.png",
+      "name": "S2V Esports",
+      "slug": "s2v-esports"
+    },
+    {
+      "acronym": "x6",
+      "id": 125736,
+      "image_url": "https://cdn.pandascore.co/images/team/image/125736/_.png",
+      "name": "x6tence",
+      "slug": "x6tence"
+    },
+    {
+      "acronym": "TQ",
+      "id": 126075,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126075/220px-Team_Quesologo_square.png",
+      "name": "Team Queso",
+      "slug": "team-quesco"
+    }
+  ],
+  "videogame": {
+    "id": 1,
+    "name": "LoL",
+    "slug": "league-of-legends"
+  },
+  "winner_id": null,
+  "winner_type": null
+},
